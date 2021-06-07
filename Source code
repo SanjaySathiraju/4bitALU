@@ -1,6 +1,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+//  a 4-bit Arithmetic Logic Unit (ALU) which can perform all the possible 16 logic operations on two variables and a variety of arithmetic operations.//
+
 entity ALU_4bits2sel is
   port (
     num1,num2 : in std_logic_vector(3 downto 0);
